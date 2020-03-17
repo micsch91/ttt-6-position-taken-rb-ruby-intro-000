@@ -9,8 +9,7 @@ if board[index] == " " || ""
 elsif board[index] == nil
   return false
 
-elsif board[index] == "X" || "O"
-  return true
+elsif return true
 
   end
 end
