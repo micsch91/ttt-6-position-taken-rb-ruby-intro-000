@@ -9,8 +9,11 @@ if board[index] == " " || ""
 elsif board[index] == nil
   return false
 
+end
+
+
 if board[index] == "X" || "O"
   return true
 
-  end
+
 end
