@@ -15,5 +15,5 @@ end
 if board[index] == "X" || "O"
   return true
 
-end
+  end
 end
