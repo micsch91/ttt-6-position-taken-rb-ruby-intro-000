@@ -9,7 +9,7 @@ if board[0] == " " || board[0] == ""
 elsif board[0] == nil
   return false
 
-else board == "X" || "O"
+else 
   return true
 
 end
