@@ -12,5 +12,5 @@ elsif board[index] == nil
 elsif board[index] == "X" || "O"
   return true
 
-end
   end
+end
