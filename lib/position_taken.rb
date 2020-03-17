@@ -6,7 +6,7 @@ def position_taken?(board, index)
 if board[0] == " " || board[0] == "" || board[0] == nil
   return false
 
-else
+elsif
   return true
 
 end
