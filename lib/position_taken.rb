@@ -3,13 +3,13 @@ def position_taken?(board, index)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   index = 0
 
-if position_taken?(board) == " " || ""
+if board == " " || ""
   return false
 
-elsif position_taken?(board) == nil
+elsif board == nil
   return false
 
-elsif position_taken?(board) == "X" || "O"
+elsif board == "X" || "O"
   return true
 
 end
