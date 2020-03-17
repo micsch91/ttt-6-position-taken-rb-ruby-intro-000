@@ -1,6 +1,6 @@
 # code your #position_taken? method here!
 def position_taken?(board, index)
-  board = ["X", " ", " ", " ", " ", " ", " ", " ", "O"]
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   index = 0
 
 if board == " " || ""
@@ -9,8 +9,8 @@ elsif board != " " || ""
     return true
   elsif board == nil
     return false
-elsif position_taken?(board,index) == "X" || "O"
-  return false
+elsif board == "X" || "O"
+  return true
 
 end
   end
