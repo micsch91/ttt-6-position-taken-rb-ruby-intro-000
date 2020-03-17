@@ -9,7 +9,7 @@ if board == " " || ""
 elsif board == nil
   return false
 
-elsif board[0,8] == "X" || "O"
+elsif board == "X" || "O"
   return true
 
 end
