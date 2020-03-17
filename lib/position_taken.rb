@@ -10,7 +10,7 @@ elsif board != " " || ""
   elsif board == nil
     return false
 elsif position_taken?(board,index) == "X" || "O"
-  return true
+  return false
 
 end
   end
