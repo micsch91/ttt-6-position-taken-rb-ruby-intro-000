@@ -8,7 +8,7 @@ if board == " " || ""
 elsif board != " " || ""
     return true
   elsif board == nil
-    return nil
+    return false
 elsif board == "X" || "O"
   return true
 
